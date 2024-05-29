@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(image2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formulario2{
+    width: 450px;
+    height: 560px;
+    padding: 20px;
+    position: relative;
+    left: 600px;
+    top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background:rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.formulario2 form input,label{
+    margin: 30px 0px;
+    position: relative;
+    top: 120px;   
+}
+
+.formulario2 form{
+    position: relative;
+    left: 80px;
+}
+
+#submit{
+    width: 300px;
+    height: 39px;
+    background-color: #438bc7;
+    border: 1px solid #438bc7;
+    position: relative;
+    top: 120px;
+    left: 2px;
+}
+
+#Usuario{
+    width: 300px;
+    height: 25px;
+    background: rgba(28,27,23);  
+    border-bottom: 3px solid #438bc7;
+    position: relative;
+    top: 110px;
+
+}
+
+#password{
+    width: 300px;
+    height: 25px;
+    background: rgba(28,27,23);
+    border-bottom: 3px solid #438bc7;
+    position: relative;
+    top: 110px;
+
+}
+#Email{
+    width: 300px;
+    height: 25px;
+    background: rgba(28,27,23);
+    border-bottom: 3px solid #438bc7;
+    position: relative;
+    top: 110px;
+
+}
+
+#Area{
+    width: 300px;
+    height: 35px;
+    background: rgba(28,27,23);
+    border-bottom: 3px solid #438bc7; 
+    position: relative;
+    top: 140px;
+   
+}
+
+#LO{
+    color: #438bc7;
+    font-size: 40px;
+}
+
+#GIN{
+    color: blue;
+    font-size: 40px;
+    position: absolute;
+    left: 120px;
+    bottom: 1px;    
+}
+
+.Title{
+    position: absolute;
+    left: 720px;
+    top: 80px;   
+}

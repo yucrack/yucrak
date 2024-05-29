@@ -1,0 +1,73 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   background: url(image.png);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.formulario1{
+   width: 305px;
+   height: 250px;
+   padding: 10px;
+   position: relative;
+   left: 650px;
+   top: 120px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   background:rgba(255, 255, 255, 0.1);
+   border-radius: 5px;
+}
+
+.formulario1 form input{
+   margin: 20px 0px;
+}
+
+#submit{
+   width: 300px;
+   height: 39px;
+   background-color: #438bc7;
+   border: 1px solid #438bc7;
+}
+hr{
+   position: relative;
+   left: 120px;
+}
+
+#Usuario{
+   width: 300px;
+   height: 25px;
+   background: rgba(28,27,23);
+  
+   border-bottom: 3px solid #438bc7;
+}
+
+#password{
+   width: 300px;
+   height: 25px;
+   background: rgba(28,27,23);
+   border-bottom: 3px solid #438bc7;
+}
+
+#LO{
+   color: #438bc7;
+   font-size: 50px;
+}
+
+#GIN{
+   color:  blue;
+   font-size: 50px;
+   position: relative;
+   left: 70px;
+   bottom: 57px;    
+}
+
+.Title{
+   position: relative;
+   left: 725px;
+   top: 160px;   
+}
+
